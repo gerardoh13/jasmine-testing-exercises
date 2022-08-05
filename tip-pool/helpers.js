@@ -24,6 +24,8 @@ function appendTd(tr, value) {
 
   tr.append(newTd);
 }
+
+// expects a table row element, appends a newly created clickable td to remove its parent element
 function appendDeleteBtn (tr) {
   let deleteTd = document.createElement('td')
   deleteTd.classList.add("deleteBtn")
